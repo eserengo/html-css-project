@@ -1,0 +1,9 @@
+body{
+    background-color: white;
+}
+main{
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+}
