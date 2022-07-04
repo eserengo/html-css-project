@@ -1,18 +1,54 @@
-body{
+
+body,html{
     background-color: white;
+
+
+
 }
 main{
 
     display: flex;
     flex-wrap: wrap;
-    background-color: gray;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content:  center;
+
+
 }
 div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+align-items: center;
+align-content: center;
 }
+
 #image {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    
+    display: block;
+}
+
+
+
+
+ul,h2{
+    width: 50%;
+}
+a{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}figcaption{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
