@@ -7,3 +7,12 @@ main{
     flex-wrap: wrap;
     background-color: gray;
 }
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#image {
+    max-width: 50%;
+    max-height: 50%;
+}
